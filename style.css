@@ -1,0 +1,642 @@
+ h6 {
+    text-align: left;
+
+ }
+ ul, ol, h4 {
+    display: inline-flex;  /* Afficher les éléments sur la même ligne */
+    margin: 20px;  /* Ajouter un espacement entre les éléments */
+    text-align: center;
+    bottom: 50px;
+    position: relative;
+   
+ }
+  
+ 
+ /* Rendre les éléments de la liste horizontaux */
+ul {
+    text-align: center;
+    list-style-type: none; /* Supprimer les puces par défaut */
+    padding: 0;
+    bottom: 45px;
+
+}
+nav ul li {
+    
+    position: relative;
+    margin-right: 20px; /* Ajouter un espacement entre les éléments */
+    color: white;
+    height: 5px;
+    padding: 5px; 
+    margin: 5px;
+    bottom: 20px;
+    
+
+}
+#logo{
+    position: relative;
+    right: 500px;
+    top: 15px;
+    
+}
+
+
+ol {
+    text-align: end;
+    list-style-type: none; /* Supprimer les puces par défaut */
+    padding: 2;
+    margin-top: -20;
+
+   
+}
+
+ ol li {
+    display: inline;  /* Affichage en ligne */
+    margin-right: 25px; /* Ajouter un espacement entre les éléments */
+    height: 10;
+   
+ }
+  
+ ul {
+    background-color: #125e76;
+    padding: 10px;
+    border-radius: 5px;
+    
+  
+ }
+
+ ol,container {
+   
+    padding: 10;
+    margin: 13;
+    
+ }
+ body {
+    background-color: rgb(195, 241, 241);
+ }
+h4 {
+    padding: 1px;
+    color: rgb(8, 192, 188);/* Texte en bleu */
+    
+}
+
+.slider{
+    position: relative;
+    display: flex;
+    padding: 21px;
+    right: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    bottom: 251px;
+    left: -200px;
+ 
+ 
+}
+
+.prev{
+    position: relative;
+    left: -80px;
+    background-color: #125e76;
+    color: white;
+
+}
+
+.preuv{
+    position: relative;
+    left: 350px;
+    top: 10px;
+    background-color: #125e76;
+    color: white;
+}
+
+
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center; /* Alignement vertical */
+    gap: 20px; /* Espace entre l'image et le texte */
+    left: 660px;
+    bottom: 610px;
+    width: -10px;
+    border-radius: 20px;
+    margin-top: -24px;
+    padding-top: 29px;
+    
+}
+
+h3{
+    background: none;
+}
+
+header{
+    background-color:white;
+    padding: 20px;
+    margin: 1%;
+    text-align: center;
+    border-radius: 0%; /* Bord arrondi pour un effet doux */
+    border-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 100;
+    left: 3;
+    margin: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ 
+ section{
+    position: relative;
+    left: 200px;
+ }
+
+ .secret{
+    position: relative;
+    right: 60px;
+    left: 30px;
+    top: 80px;
+ }
+
+
+ .paragraphe{
+    position: relative;
+    top: 40px;
+    left: 30px
+    
+ }
+
+ h1{
+    position: relative;
+    top: 60px;
+    bottom: 150px;
+    color: white;
+    left: 30px
+    
+    
+    
+ }
+ .leparagraphe{
+    position: relative;
+    left: -90px;
+    text-align: center;
+    top: 10px;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+   
+ }
+
+ .pp2{
+    position: relative;
+    left: 500px;
+    top: 10px;
+ }
+
+
+.btn-network{
+    background-color:  #125e76;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    height: 50px;
+    text-align: end;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    top: -180px;
+    position: relative;
+    right: 0px;
+    left: 600px;
+
+    
+}
+/*button "commencer"*/
+.btn-start{
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-color: #125e76;
+    border-radius: 2px;
+    display: block;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    right: 0px;
+    position: relative;
+    top: -100px;
+    left: 400px;
+   
+    
+}
+
+.sequence {
+    position: relative;
+    background-color: #125e76;
+    height: 400px;
+    width: -300px;
+    right: -70px;
+    bottom: 150px;
+    
+    
+    
+    
+
+}
+ #unique{
+    position: relative;
+    color: rgb(3, 121, 142);
+    padding: 50px;
+    font-size: 40px;
+    margin-top: 5px;
+    right: 20px;
+    bottom: 200px;
+    left: 450px;
+    
+ }
+ .image-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    justify-content: space-around;
+    gap: 5px;
+    background-color: rgb(148, 237, 237);
+    border-radius: 5px;
+    margin: 100px;
+    margin-top: 10px;
+    height: 300px;
+    padding: 30px;
+    bottom: 200px;
+   
+    
+ }
+ .moi{
+    position: relative;
+    margin-top: 30px;
+    color: rgb(3, 103, 103);
+    font-size: 40px;
+    padding: 20px;
+    left: 400px;
+    bottom: 250px;
+    
+    
+ }
+  #form{
+    border-color: rgb(4, 109, 130);
+    border-radius: 4px;
+
+  }
+  footer{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+    padding: 30px;
+    top: -700px;
+    margin-top: 30px;
+ 
+  }
+
+
+
+  
+.title{
+    font-size: 24px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 30px;
+    top: -69px;
+
+   
+
+  }
+
+.monparagraphe{
+    position: relative;
+    left: 10px;
+    font-size: 17px;
+    top: -49px;
+}
+
+
+.title2{
+    position: relative;
+    left: 600px;
+    top: -290px;
+}
+
+
+.monparagraphe2{
+    position: relative;
+    left: 600px;
+    font-size: 17px;
+    top: -270px;
+    
+}
+
+.segundo{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+   .contact{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    border: none;
+    margin: 30px;
+    margin-bottom: 60px;
+    top: -600px;
+
+
+   }
+   .formulaire{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #125e76;
+    margin: 100px;
+    font-size: 20px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    top: -690px;
+    
+   }
+   #nom_comple{
+    width: 450px;
+    height: 50px ;
+    position: relative;
+    right: 80px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 90px;
+    top: 40px;
+   
+
+   }
+   #nom{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    right: 90px;
+    top: 1px;
+ 
+   }
+   #structure{
+    width: 450px;
+    height: 50px;
+    position: relative;
+    right: 80px;
+    border: none;
+    margin: 40px;
+    border-radius: 10px;
+    margin-top: 100px;
+   }
+   #struct{
+    position: relative;
+    bottom: 60px;
+    left: 60px;
+   }
+   #ad{
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+    margin: 1px;
+    left: 59px;
+    
+    
+   }
+   #adresse{
+    width: 450px;
+    height: 50px;
+    position: relative;
+    border: none;
+    right: 40px;
+    margin: 1px;
+    border-radius: 10px;
+    left: -25px;
+   
+    
+
+   }
+   #mitt{
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    margin-bottom: 20px;
+    margin: 1px;
+    right: 30px;
+    margin-top: 80px;
+    bottom: 70px;
+    left: 67px;
+    
+   }
+
+   #message{
+    position: relative;
+    height: 90px;
+    width: 450px;
+    right: 80px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    left: -59px;
+
+   }
+
+   #pass{
+    position: relative;
+    right: 200px;
+    font-size: 50px;
+    top: 80px;
+
+   }
+   #diallo{
+    position: relative;
+    right: 200px;
+    top: 100px;
+    
+   }
+  
+  .Liferemote{
+
+    position: relative;
+    right: 100px;
+    left: 590px;
+    bottom: 160px;
+
+   }
+     
+
+   hr{
+    position: relative;
+    width: 400px;
+    height: 8px;
+    background-color: #125e76;
+    margin-top: 130px;
+    border-radius: 5px;
+    bottom: 200px;
+   }
+
+   .hrseconde{
+    position: relative;
+    top: -640px;
+   }
+
+.imagee1{
+    position: relative;
+    left: -160px;
+    top: -20px;
+    bottom: -40px;
+    
+}
+.param1, p{
+    position: relative;
+    left: -197px;
+    font-size: 12px;
+   
+   
+}
+#moi{
+    position: relative;
+    right: 100px;
+    left: 10px;
+    
+}
+.param2{
+    position: relative;
+    bottom: 100px;
+    left: 45px;
+    top: -65px;
+    width: 100px;
+    height: 110px;
+   
+
+}
+ 
+.para3{
+    position: relative;
+    left: 20px;
+    bottom: 90px;
+    top: -50px;
+   
+}
+.paraa4{
+    position: relative;
+    left: -2px;
+    bottom: -30px;
+    top: -50px;
+    font-size: 11px;
+    height: 80px;
+   
+}
+.para6{
+    position: relative;
+    left: 25px;
+    bottom: 70px;
+    width: 120px;
+   
+
+}
+.para5{
+    position: relative;
+    left: 10px;
+    bottom: 70px;
+   
+
+}
+.param1{
+    position: relative;
+    left: -2px;
+    bottom: 70px;
+    right: 50px;
+   
+}
+
+.tiwiter2{
+    position: relative;
+    width: 25px;
+    left: 960px;
+    right: -100px;
+    top: -400px;
+
+    
+}
+.facebook{
+    position: relative;
+    width: 25px;
+    left: 898px;
+    right: 100px;
+    top: -450px;
+
+
+}
+.inin2{
+    position: relative;
+    width: 25px;
+    left: 930px;
+    right: 100px;
+    top: -370px;
+
+}
+
+.instagrame3{
+    position: relative;
+    width: 30px;
+    left: 868px;
+    right: 106px;
+    top: -420px;
+
+}
+
+
+
+.tiwiter{
+    position: relative;
+    width: 30px;
+    left: 688px;
+    right: 106px;
+    top: -182px;
+
+
+}
+
+.inin{
+    position: relative;
+    width: 30px;
+    left: 690px;
+    right: 206px;
+    top: -180px;
+}
+.faceboo{
+    position: relative;
+    width: 30px;
+    left: 550px;
+    right: 106px;
+    top: -179px;
+
+}
+.instagrame{
+    position: relative;
+    width: 30px;
+    left: 550px;
+    right: 106px;
+    top: -180px;
+}
